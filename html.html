@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="" class="nav-txt">صفحه اصلی</a>
+                <a href="" class="nav-txt">اخبار</a>
+                <a href="" class="nav-txt">جدول لیگ برتر</a>
+                <a href="" class="nav-txt">نتایج زنده </a>
+                <a href="" class="nav-txt">نتایج زنده </a>
+                <a href="" class="nav-txt">نتایج زنده </a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa fa-user"></i>
+                    <a href="" class="nav-txt">ثبت نام / ووود </a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="siders">
+                <div class="item active" id="slide1">
+                    <img src="4.jpg" alt="" style="width:100%;height:564px;">
+                </div>
+                <div class="item" id="slide2">
+                    <img src="2.jpg" alt="" style="width:100%;height:564px;">
+                </div>
+                <div class="item" id="slide3">
+                    <img src="3.jpg" alt="" style="width:100%;height:564px">
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1',1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2',2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3',3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="product">
+            <div class=" carrd border-light" style="  background-image: url(s2.jpg); background-size: cover;">
+                <div class="c-header">
+                    <a href="" class="c-text">اقدام فوری ساپینتو در خصوص نقل و انتقالات آبی‌ها/ ۲بازیکن خارجی جدید در راه استقلال</a>
+                </div>
+            </div>
+            <div class=" carrd border-light" style="  background-image: url(tm.jpg); background-size: cover;">
+                <div class="c-header">
+                    <a href="" class="c-text">فارس من| اسکوچیچ روی نیمکت تیم ملی تا جام جهانی/ فدراسیون برنامه ای برای تغییر سرمربی ندارد</a>
+                </div>
+            </div>
+            <div class=" carrd border-light" style="  background-image: url(sp.jpg); background-size: cover;">
+                <div class="c-header">
+                    <a href="" class="c-text">باشگاه سپاهان اصفهان مذاکرات جدیدی را با گزینه پرتغالی‌اش آغاز کرده است.</a>
+                </div>
+            </div>
+            <div class=" carrd border-light" style="  background-image: url(vr.jpg); background-size: cover;">
+                <div class="c-header">
+                    <a href="" class="c-text">وریا غفوری: هیچ تماسی از استقلال با من نگرفتند/ من وطن فروش نیستم</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="satr">
+                <span class="itemm" style="  background-image: url(ball.png); background-size: cover;"></span>
+                <span class="itemm" style="  background-image: url(ball.png); background-size: cover;"></span>
+            </div>
+        </section>
+
+        <section class="f-text">
+            <div class="text-center">
+                <a href="" class="c-text">جدایی لژیونر پرسپولیسی از تیم قطری/ ۲ بازیکن ملی پوش ایران جا به جا می شوند!</a></br>
+                <a href="" class="c-text">مقصد مبهم علی کریمی؛ ایران یا خارج از کشور؟</a></br>
+                <a href="" class="c-text">ببینید| تمرینات اختصاصی صیادمنش با کمک همسرش!</a>
+            </div>
+        </section>
+
+        <section class="inormation">
+            <table>
+                <tr>
+                    <th>رتبه</th>
+                    <th>تیم</th>
+                    <th>بازی</th>
+                    <th>امیاز</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>استقلال</td>
+                    <td>30</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>پرسپولیس</td>
+                    <td>30</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>سپاهان</td>
+                    <td>30</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>گل گهر سیرجان</td>
+                    <td>30</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>فولاد</td>
+                    <td>30</td>
+                    <td>49</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>مس رفسنجان</td>
+                    <td>30</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>ذوب آهن</td>
+                    <td>30</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>المینیوم اراک</td>
+                    <td>30</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>پیکان</td>
+                    <td>30</td>
+                    <td>36</td>
+                </tr>
+
+
+                <tr>
+                    <td>10</td>
+                    <td>صنعت نفت ابادان</td>
+                    <td>30</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>هوادار</td>
+                    <td>30</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>نساجی مازندران </td>
+                    <td>30</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>تراکتور</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>نفت مسجد سلیمان</td>
+                    <td>30</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>شهرخودرو مشهد </td>
+                    <td>30</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>فجر سپاسی </td>
+                    <td>30</td>
+                    <td>17</td>
+                </tr>
+            </table>
+            <div class="text-container">
+                <div class="div-text">
+                    <span><a href="" class="tx">خبر بد نقل و انتقالاتى براى پرسپولیس | نواندیش - پنج ساعت پيش</a></span></br>
+                    <span><a href="" class="tx">اقدام فوری ساپینتو در خصوص نقل و انتقالات آبی ها/ ۲بازیکن خارجی جدید در راه استقلال | پارس فوتبال - پنج ساعت پيش</a></span></br>
+                    <span><a href="" class="tx">شرط و شروط سرمربی پرتغالی استقلال برای زندگی در تهران | نواندیش - دو ساعت پيش</a></span></br>
+                    <span> <a href="" class="tx">پرونده من در باشگاه پرسپولیس را به آتش کشیده اند/ نه تنها دریافتی نداشتم بلکه من پول زور هم گرفتند! | پارس فوتبال - چهار ساعت پيش</a></span></br>
+                    <span><a href="" class="tx">عرفان قهر کرد / درخواست باشگاه استقلال از باقری / جانشین مهدی قایدی بازی در استقلال را نمی خواهد</a></span></br>
+
+                </div>
+                <div class="div-text">
+                    <span> <a href="">سقوط ۲ پله‌ای شاگردان اسکوچیچ در رنکینگ فیفا؛ اول آسیا و بیست‌سوم جهان | ایرنا - هشت دقيقه پيش</a></span></br>
+                    <span><a href="">گزارش عجیب سان: اسکوچیچ در آستانه اخراج | شبکه لحظه - هشت دقيقه پيش</a></span></br>
+                    <span> <a href="">گلزنی طیبی در دومین شکست بنفیکا در فینال لیگ برتر پرتغال | شبکه لحظه - هشت دقيقه پيش</a></span></br>
+                    <span> <a href="">چاره کار «کارلوس» است؟ | ایسنا - هجده دقيقه پيش</a></span></br>
+                    <span> <a href="">سقوط ۲ پله‌ای ایران در تازه‌ترین رده بندی فیفا | گسترش نیوز - هجده دقيقه پيش</a></span></br>
+                    <span> <a href="">زیدان در راه پاری سن ژرمن | عرشه آنلاین - هجده دقيقه پيش</a></span></br>
+                    <span> <a href="">شاه ماهی هایی که نتوانسته اند به رکورد کریم باقری برسند | اندیشه معاصر - هفده دقيقه پيش</a></span></br>
+                    <span> <a href="">دو ستاره‌ای که استقلال را فاتح نقل‌و‌انتقالات می‌کنند! | اندیشه معاصر - هفده دقيقه پيش</a></span></br>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="topic">
+                <span class="row-1-topic">موضوعات داغ <b>ورزشي</b></span>
+            </div>
+            <div class="row footer-information justify-content-sm-center">
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="div-col-information border-bottom "><a href="" class="row-span"> فوتبال برتر</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information border-bottom"><a href="" class="row-span">پرسپوليس</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information  border-bottom"><a href="" class="row-span">استقلال</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information border-bottom "><a href="" class="row-span"> قهرمان اسيا</a></div>
+                </div>
+            </div>
+            <div class="row footer-information row-tm">
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information fotter-tx"><a href="">اخبار روز</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information fotter-tx"><a href="">اخبار ورزشي</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information fotter-tx"><a href="">درباره ما</a></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="div-col-information fotter-tx"><a href="">تماس با ما </a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
